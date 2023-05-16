@@ -1,0 +1,209 @@
+html{
+    display: block;
+}
+
+/*Element/tag Selector */
+body{
+    display: block;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(138, 7, 7);;
+}
+
+/* Styling using the id Selector*/
+#main{
+    margin: 0;
+    padding: 15px;
+    border-radius: 5px;
+    max-height: 460px;
+    background: rgb(138, 7, 7);
+}
+
+/*Element/tag Selector */
+main{
+    display: block;
+}
+
+/*Element/tag Selector */
+#title{
+    color: #fff;
+}
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h1{
+   display: block;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.57em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+/*Using the class selector */
+.comment{
+    color: #c7c7c2;
+}
+
+/*Tag Selector */
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Id Selector */
+#img-div{
+    background-image: url(Images/Keyboard.jpeg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(104, 8, 8, 0.954)
+    
+}
+
+/*Element Selector */
+figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+/*Id Selector */
+#img-caption{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+/*Element Selector */
+figcaption{
+    display: block;
+}
+
+/*Class Selector */
+.list{
+    color: #fff;
+}
+
+section{
+    display: block;
+}
+
+/*Id Selector */
+#heading{
+    margin: 50px 0;
+    text-align: center;
+}
+
+/*Element Selector */
+h3{
+   display: block; 
+   font-size: 1.17em;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold; 
+}
+
+/*Element Selector */
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-size: 1.2rem;
+}
+
+ul{
+    max-width: 550px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/*Element Selector */
+li{
+    margin: 16px 0;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+blockquote{
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 550px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+blockquote{
+   display: block; 
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 40px;
+   margin-inline-end: 40px;
+   text-align: left;
+}
+
+h3{
+   display: block; 
+   font-size: 1em;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+footer{
+    display: block;
+    padding: 0 0 40px;
+}
+
